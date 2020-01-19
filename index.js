@@ -35,6 +35,6 @@ function error(predicted, expected) {
       misclassifications++;
     }
   }
-  return misclassifications;
+  return (misclassifications / predicted.length) * 100;
 }
 console.log(error(predictions, testingLabel));
