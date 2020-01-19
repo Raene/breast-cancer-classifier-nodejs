@@ -10,5 +10,6 @@ A Naive Bayes classifier that predicts whether a tumour is malignant or benign
 node formDataset.js
 ```
 - then 
-```node index.js
+```
+node index.js
 ```
